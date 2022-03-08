@@ -1,2 +1,2 @@
 const servers = [];
-export default servers;
+module.exports = servers;

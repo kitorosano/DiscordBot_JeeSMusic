@@ -145,7 +145,6 @@ client.on('messageCreate', async (msg) => {
 /** COMPROBAR AL INICIAR EL BOT */
 client.once('ready', async () => {
 	console.log('Bot Connected');
-	startUp(client);
 });
 
 client.login(token); //LOGEAR Y ARRANCAR EL BOT

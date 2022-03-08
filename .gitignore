@@ -1,0 +1,9 @@
+#files for developing
+.env
+.package.json.copy
+bot_IDs
+
+#folders
+node_modules/
+
+#discarded commands

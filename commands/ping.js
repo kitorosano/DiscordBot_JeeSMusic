@@ -1,5 +1,4 @@
 module.exports = {
-  disable: true,
   name: 'ping',
   description: 'Tiempo de respuesta del bot a tus mensajes',
   guildOnly: true,

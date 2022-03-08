@@ -1,6 +1,5 @@
 const ytdl = require('ytdl-core');
 module.exports = {
-	disable: true,
   name: 'play',
   description: 'Reproduce musica desde YouTube',
   args: true,

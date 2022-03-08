@@ -1,14 +1,13 @@
 const ytdl = require('ytdl-core');
 
 module.exports = {
-  name: 'leave',
-  description: 'Expulsa al bot del canal de voz actual del usuario',
+  name: 'queue',	
+  description: 'Muestra lista de reproduccion pendiente',
+  aliases: ['q', 'playlist'],
   guildOnly: true,
   async execute(msg, args, isMod) {
 		const { author, guild, channel, client, member } = msg;
-
-    if (member.voice.channel) {
-      await member.voice.channel.leave();
-    }
+    
+    
   }
 }
